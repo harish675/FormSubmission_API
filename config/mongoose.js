@@ -1,7 +1,7 @@
 
 const mongoose = require('mongoose');
 
-mongoose.connect(`mongodb://127.0.0.1/admin_API_DB`);
+mongoose.connect(`mongodb+srv://harishjadhav675:X2Y0dzucn2fMvNQB@testdb.zofglmh.mongodb.net/?retryWrites=true&w=majority&appName=testDB`);
 
 const db = mongoose.connection;
 
