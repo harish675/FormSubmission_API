@@ -1,7 +1,10 @@
 
 const mongoose = require('mongoose');
 
-mongoose.connect(`mongodb+srv://harishjadhav675:X2Y0dzucn2fMvNQB@testdb.zofglmh.mongodb.net/?retryWrites=true&w=majority&appName=testDB`);
+// harishjadhav675
+// nz0LXApMyqgIgDtu
+
+mongoose.connect(`mongodb+srv://harishjadhav675:nz0LXApMyqgIgDtu@cluster0.nzktl5t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`);
 
 const db = mongoose.connection;
 
